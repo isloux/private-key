@@ -14,8 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #331748;
+  background-image: linear-gradient(#230F2E, #591B7A);
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +36,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Public {
+  text-align: center;
+}
+
+.Description {
+  text-align: left;
+  margin: 1em;
+}
+
+.Private {
+  text-align: left;
+  margin-left: 1.5em;  
+}
+
+.Donation {
+  color: #434717;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.Noclick {
+  background-color: #efefef;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.Noclick:hover {
+  background-color: #9c9c9c;
+}
+
+.Noclick:active {
+  background-color: #ffffff;
 }
